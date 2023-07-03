@@ -44,7 +44,6 @@ const Services = () => {
           className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
           <h2 className="h2 text-accent mb-6">What I Do.</h2>
           <h3 className="h3 max-w-[455px] mb-16">I create websites that adapt flawlessly to various devices and screen sizes, ensuring a seamless experience for users whether they're browsing on desktops, tablets, or smartphones.</h3>
-          <button className="btb btn-sm">See my work</button>
           </motion.div>
         {/* { services } */}
         <motion.div
