@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.37a5682d.css",
+    "main.js": "/react-gh-pages/static/js/main.73e5897d.js",
+    "static/media/avatar.svg": "/react-gh-pages/static/media/avatar.6acdd0f348322ba06d8275de5dd8ee85.svg",
+    "static/media/portfolio-img2.png": "/react-gh-pages/static/media/portfolio-img2.d80e3fc7e2231cffbbd7.png",
+    "static/media/portfolio-img1.png": "/react-gh-pages/static/media/portfolio-img1.d45ebb72ef7e959f07bb.png",
+    "static/media/portfolio-img3.png": "/react-gh-pages/static/media/portfolio-img3.e2bf250541b961cca642.png",
+    "static/media/site-bg.jpg": "/react-gh-pages/static/media/site-bg.54724d703024833ef9c6.jpg",
+    "static/media/services.png": "/react-gh-pages/static/media/services.8e66d4fbbd95de45b8db.png",
+    "static/media/about.png": "/react-gh-pages/static/media/about.34da930ab4436bc41a33.png",
+    "static/media/logo.svg": "/react-gh-pages/static/media/logo.5e047351b03f31fb4f6955ce65f851c8.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.37a5682d.css.map": "/react-gh-pages/static/css/main.37a5682d.css.map",
+    "main.73e5897d.js.map": "/react-gh-pages/static/js/main.73e5897d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37a5682d.css",
+    "static/js/main.73e5897d.js"
+  ]
+}
