@@ -8,6 +8,10 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from '../variants';
 
+import { Link } from 'react-scroll';
+
+import { sendEmail } from '../functions';
+
 const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.5,
@@ -33,7 +37,6 @@ const About = () => {
           className="flex-1">
         <h2 className="h2 text-accent">About me.</h2>
         <h3 className="h3 mb-4">I'm a Freelance Front-end Developer with over 3 years of experience.</h3>
-        <p className="mb-6">Lorem ipsum dolor sit, amet consecteur adippsicing elit.</p>
         {/* { stats } */}
         <div className="flex gap-x-6 lg:gap-x10 mb-12">
           <div>
@@ -65,8 +68,13 @@ const About = () => {
           </div>
         </div>
         <div className="flex gap-x-8 items-center">
-          <button className="btn btn-lg">Contact me</button>
-          <a href="#" className="text-gradient btn-link">My Portofolio</a>
+          <button onClick={sendEmail} className="btn btn-lg">Contact me</button>
+          <Link
+            to="work"
+            smooth={true}
+            spy={true}
+            className="text-gradient btn-link"
+          >My Portofolio</Link>
         </div>
         </motion.div>
       </div>

@@ -2,6 +2,8 @@ import React from 'react';
 
 import Logo from "../assets/logo.svg";
 
+import { sendEmail } from '../functions';
+
 const Header = () => {
   return (
   <header className="py-8">
@@ -10,7 +12,7 @@ const Header = () => {
         <a href="#">
           <img src={Logo} alt="logo" />
         </a>
-        <button className="btn btn-sm">Work with me</button>
+        <button onClick={sendEmail} className="btn btn-sm">Work with me</button>
       </div>
     </div>
   </header>);

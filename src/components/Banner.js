@@ -9,6 +9,8 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
 import { fadeIn } from "../variants";
+import { Link } from 'react-scroll';
+import { sendEmail } from '../functions';
 
 const Banner = () => {
   return (
@@ -36,18 +38,17 @@ const Banner = () => {
           </motion.div>
           <motion.p variants={fadeIn("up", 0.5)} initial="hidden" whileInView={"show"} viewport={{once: true, amount: 0.7}} className="mb-8 max-w-lg mx-auto lg:mx-0">I am a passionate and creative web designer, dedicated to crafting visually stunning and user-friendly websites. With a keen eye for detail and a deep understanding of the latest design trends, I specialize in transforming ideas into captivating digital experiences.</motion.p>
           <motion.div variants={fadeIn("up", 0.6)} initial="hidden" whileInView={"show"} viewport={{once: true, amount: 0.7}} className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
-            <button className="btn btn-lg">Contact me</button>
-            <a href="#" className="text-gradient btn-link">My Portofolio</a>
+            <button onClick={sendEmail} className="btn btn-lg">Contact me</button>
+            <Link
+              to="work"
+              smooth={true}
+              spy={true}
+              className="text-gradient btn-link"
+            >My Portofolio</Link>
           </motion.div>
           <motion.div variants={fadeIn("up", 0.7)} initial="hidden" whileInView={"show"} viewport={{once: true, amount: 0.7}} className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-            <a href="#">
-              <FaYoutube />
-            </a>
-            <a href="#">
+            <a href="https://github.com/PaunMihai1" target="_blank" rel="noreferrer">
               <FaGithub />
-            </a>
-            <a href="#">
-              <FaDribbble />
             </a>
           </motion.div>
         </div>
