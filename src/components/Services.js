@@ -9,27 +9,23 @@ import { fadeIn } from "../variants";
 // services data
 const services = [
   {
+    name: "Web Development",
+    description: `Creating dynamic and responsive websites using HTML, CSS, and JavaScript.`,
+    link: "Learn more"
+  },
+  {
     name: "UI / UX Design",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ducimus
-    facere, possimus eius necessitatibus repellat.`,
+    description: `Crafting visually appealing and intuitive user interfaces.`,
     link: "Learn more"
   },
   {
-    name: "Development",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ducimus
-    facere, possimus eius necessitatibus repellat.`,
+    name: "Mobile Optimization",
+    description: `Designing mobile-friendly websites and optimizing them for a smooth user experience.`,
     link: "Learn more"
   },
   {
-    name: "Digital Marketing",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ducimus
-    facere, possimus eius necessitatibus repellat.`,
-    link: "Learn more"
-  },
-  {
-    name: "Product Branding",
-    description: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ducimus
-    facere, possimus eius necessitatibus repellat.`,
+    name: "Performance Optimization",
+    description: `Performance Optimization: Enhancing website speed and performance through efficient coding and optimization techniques.`,
     link: "Learn more"
   }
 ]
@@ -47,7 +43,7 @@ const Services = () => {
           viewport={{once: true, amount: 0.3}}
           className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten mb-12 lg:mb-0">
           <h2 className="h2 text-accent mb-6">What I Do.</h2>
-          <h3 className="h3 max-w-[455px] mb-16">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, reprehenderit.</h3>
+          <h3 className="h3 max-w-[455px] mb-16">I create websites that adapt flawlessly to various devices and screen sizes, ensuring a seamless experience for users whether they're browsing on desktops, tablets, or smartphones.</h3>
           <button className="btb btn-sm">See my work</button>
           </motion.div>
         {/* { services } */}

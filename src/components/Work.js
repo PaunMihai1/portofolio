@@ -12,13 +12,14 @@ const Work = () => {
   return (
   <section className="section" id="work">
     <div className="container mx-auto">
-      <div className="flex flex-col lg:flex-row gap-x-10">
+    flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0
+      <div className="grid grid-cols-2 gap-4 place-content-between">
         <motion.div
           variants={fadeIn("right", 0.3)}
           initial="hidden"
           whileInView={"show"}
           viewport={{once: true, amount: 0.3}}
-          className="flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0">
+          className="flex flex-col justify-between gap-x-10">
           {/* { text } */}
           <div>
             <h2 className="h2 leading-tight text-accent">
@@ -26,9 +27,8 @@ const Work = () => {
               Work.
             </h2>
             <p className="max-w-sm mb-16">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est temporibus deserunt ex magni quam illo nobis? Autem dolorum illum aliquid?
+              Here are some of my latest projects. I'm constantly working on new and exciting things.
             </p>
-            <button className="btn btn-sm">View all projects</button>
           </div>
           {/* { image } */}
           <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
