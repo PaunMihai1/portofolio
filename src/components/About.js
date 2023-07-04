@@ -59,11 +59,11 @@ const About = () => {
           </div>
           <div>
             <div className="text-[40px] font-tertiary text-gradient mb-2 pt-2">
-              {inView ? <CountUp start={0} end={13} duration={3}/> : null}
+              {inView ? <CountUp start={0} end={6} duration={3}/> : null}
             </div>
             <div className="font-primary text-sm tracking-[2px]">
-              Years of <br />
-              Experience
+              Stunning projects <br />
+              Finished
             </div>
           </div>
         </div>
